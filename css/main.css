@@ -1,12 +1,65 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: "Merriweather", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background-color: #d05c2e;
+}
+
+img {
+  width: 40px;
+  display: flex;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5em 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav li {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid #a63f38;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  padding: .2em .5em .3em;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
