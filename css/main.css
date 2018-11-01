@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -42,7 +42,6 @@ h1 {
   margin: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .nav li {
@@ -50,14 +49,16 @@ h1 {
   font-weight: bold;
   color: #fff;
   border: 1px solid #a63f38;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 a {
   color: #fff;
   text-decoration: none;
   display: flex;
-  padding: .2em .5em .3em;
+  padding: .4rem 0;
 }
 
 a:hover {
